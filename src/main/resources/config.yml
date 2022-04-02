@@ -1,0 +1,25 @@
+###############################################
+#                                             #
+#         Developer: LuizBebe840#9887         #
+#                                             #
+###############################################
+
+# Information:
+
+# In "Custom-Message":
+#  If true, player will be kicked for spam, but with custom message
+#  if false, the player will not be kicked for spam
+
+Custom-Message:
+  Enable: false
+  Message: |
+    &cYou got kicked out for spam
+    &cBe more careful next time!
+
+Anti-Spam: # It will only be used if the custom message is disabled
+  Warn:
+    Enable: true
+    Title:
+      Line1: '&c&lANTI-SPAM'
+      Line2: '&cTake it easy'
+    Sound: 'NOTE_PLING'

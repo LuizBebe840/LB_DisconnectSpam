@@ -1,0 +1,4 @@
+name: LB_DisconnectSpam
+version: 1.0
+main: com.luizbebe.spam.Main
+authors: [LuizBebe840]
